@@ -1,0 +1,92 @@
+body{
+    background-color: rgb(59, 57, 57);
+    color: aliceblue;
+    /* color:black; */
+}
+ul li{
+    font-size: larger;
+}
+ul li:hover{
+  color:red;
+  background-color: rgb(73, 73, 231);
+}
+#cobtn ul li a{
+    color: black;
+}
+ #foterbox a:hover{
+   background-color: rgb(73, 73, 231);
+    
+}
+
+
+.box1 img{
+    height:100%;
+    width:100%;
+    border: 10px solid gray;
+}
+span{
+    color:rgb(98, 98, 246);
+}
+.box{
+    display: flex;
+    gap: 4%;
+
+}
+.box1 ,.box2{
+    
+    width: 100%;
+    height: 100%;
+}
+
+
+
+/* footer */
+.foterbox{
+    display: flex;
+    flex-direction: column;
+} 
+.mainfoter{
+    display: flex;
+    justify-content: space-evenly;
+  
+
+}
+.credit{
+    text-align: center;
+    font-size: larger;
+}
+
+/* gallery */
+.foto img{
+    height: 250px;
+    width: 25%; 
+    
+}
+.foto{
+    display: flex;
+    flex-wrap: wrap;
+    
+ 
+ 
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+
+
+@media screen and (max-width:768px){
+    .box{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .box1 img{
+        border:none;
+        width:100%;
+    }
+
+
+
+
+}
