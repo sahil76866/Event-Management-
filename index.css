@@ -85,7 +85,7 @@ a{
         border:none;
         width:100%;
     }
-    .foto{
+    .foto img{
         display: block;
         flex-direction: column;
     }
